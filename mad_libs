@@ -1,21 +1,5 @@
-action = ""
-con = False
-while True:
-    action = input("> ").lower()
-    if action =="start":
-        if con:
-            print("The cars are already started!")
-        else:
-            con = True
-            print("start the cars")
-    elif action == "stop":
-        print("stop the cars")
-    elif action == "help":
-        print("""
-    start - start the cars
-    stop - stop the cars
-    help - show this help
-    quit - quit the game
-    """)
-    else:
-        print("I don't understand that command.")
+pricces= [10,20,30]
+total = 0
+for price in pricces:
+    total += price
+print(total)
