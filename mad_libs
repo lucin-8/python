@@ -1,20 +1,61 @@
-print ("welcome to mad libs game!")
-print ("Please enter the following words to create your story:")
-adjective1 = input("Enter an adjective: ") 
-noun1 = input("Enter a noun: ")
-verb1 = input("Enter a verb: ")
-adjective2 = input("Enter another adjective: ")
-noun2 = input("Enter another noun: ") 
-adverb = input("Enter an adverb (ends in -ly): ")
-adjective2 = input("Enter another adjective: ")
-place = input("Enter a place: ")
-noun2 = input("Enter another noun: ")
 
-story = (f"Today, I decided to visit a very {adjective1} park to see the famous {noun1}. " 
+print ("welcome to mad libs game!")
+print ("choose from the following templates to create your story:")
+print ("1.")
+print ("2.")
+print ("3.")
+subject = input("Please enter the number of your chosen template: ")
+if subject == "1":
+    print ("Please enter the following words to create your story:")
+    num1 = input("Enter an Number: ") 
+    time1 = input("Enter a measure of time: ")
+    trans1 = input("Enter a mode of transportation: ")
+    adjec1 = input("Enter an adjective: ")
+    adjective2 = input("Enter another adjective: ")
+    noun1 = input("Enter a noun: ")
+    color1 = input("Enter a color: ")
+    body1 = input("Enter a part of body: ")
+    verb1 = input("Enter a verb: ")
+    num2 = input("Enter another number: ")
+    noun2 = input("Enter another noun: ")
+    noun3 = input("Enter another noun: ")
+    body2 = input("Enter another part of body: ")
+    verb2 = input("Enter another verb: ")
+    noun4 = input("Enter another noun: ")
+    adjective3 = input("Enter another adjective: ")
+    silly1 = input("Enter a silly word: ")
+    noun5 = input("Enter another noun: ")
+    story = (f"it was about {num} {time1} ago when I arrived at the hospital in a {trans1}.
+              the hospital is a/an {adjec1} place, there are a lot of {adjective2} {noun1},")
+              
+elif subject == "2":
+    print ("Please enter the following words to create your story:")
+    adjective1 = input("Enter an adjective: ") 
+    noun1 = input("Enter a noun: ")
+    verb1 = input("Enter a verb: ")
+    adverb = input("Enter an adverb: ")
+    adjective2 = input("Enter another adjective: ")
+    place = input("Enter a place: ")
+    noun2 = input("Enter another noun: ")
+    story = (f"Today, I decided to visit a very {adjective1} park to see the famous {noun1}. " 
             f"As soon as I arrived, a giant squirrel {verb1} right past me! " 
             f"It moved so {adverb} that I dropped my ice cream. " 
             f"Feeling completely {adjective2}, I decided to leave and go to {place} instead " 
             f"to buy a brand new {noun2}.")
-
-print("\nHere's your story:")
+    print(story)
+elif subject == "3":
+    print ("Please enter the following words to create your story:")
+    adjective1 = input("Enter an adjective: ") 
+    noun1 = input("Enter a noun: ")
+    verb1 = input("Enter a verb: ")
+    adverb = input("Enter an adverb: ")
+    adjective2 = input("Enter another adjective: ")
+    place = input("Enter a place: ")
+    noun2 = input("Enter another noun: ")
+    story = (f"Today, I decided to visit a very {adjective1} park to see the famous {noun1}. " 
+            f"As soon as I arrived, a giant squirrel {verb1} right past me! " 
+            f"It moved so {adverb} that I dropped my ice cream. " 
+            f"Feeling completely {adjective2}, I decided to leave and go to {place} instead " 
+            f"to buy a brand new {noun2}.")
+print("Here's your story:")
 print(story)
