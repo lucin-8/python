@@ -1,5 +1,20 @@
-pricces= [10,20,30]
-total = 0
-for price in pricces:
-    total += price
-print(total)
+print ("welcome to mad libs game!")
+print ("Please enter the following words to create your story:")
+adjective1 = input("Enter an adjective: ") 
+noun1 = input("Enter a noun: ")
+verb1 = input("Enter a verb: ")
+adjective2 = input("Enter another adjective: ")
+noun2 = input("Enter another noun: ") 
+adverb = input("Enter an adverb (ends in -ly): ")
+adjective2 = input("Enter another adjective: ")
+place = input("Enter a place: ")
+noun2 = input("Enter another noun: ")
+
+story = (f"Today, I decided to visit a very {adjective1} park to see the famous {noun1}. " 
+            f"As soon as I arrived, a giant squirrel {verb1} right past me! " 
+            f"It moved so {adverb} that I dropped my ice cream. " 
+            f"Feeling completely {adjective2}, I decided to leave and go to {place} instead " 
+            f"to buy a brand new {noun2}.")
+
+print("\nHere's your story:")
+print(story)
