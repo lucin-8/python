@@ -25,37 +25,75 @@ if subject == "1":
     adjective3 = input("Enter another adjective: ")
     silly1 = input("Enter a silly word: ")
     noun5 = input("Enter another noun: ")
-    story = (f"it was about {num} {time1} ago when I arrived at the hospital in a {trans1}.
-              the hospital is a/an {adjec1} place, there are a lot of {adjective2} {noun1},")
+    story = f"""It was about {num1} {time1} ago when I arrived at the hospital in a {trans1}.
+              The hospital is a/an {adjec1} place, there are a lot of {adjective2} {noun1} here.
+              There are nurses here who have {color1} {body1}.
+              If someone wants to come into my room I told them that they have to {verb1} first.
+              I’ve decorated my room with {num2} {noun2}.
+              Today I talked to a doctor and they were wearing a {noun3} on their {body2}.
+              I heard that all doctors {verb2} {noun4} every day for breakfast.
+              The most {adjective3} thing about being in the hospital is the {silly1} {noun5}!"""
+    print(story)
               
 elif subject == "2":
     print ("Please enter the following words to create your story:")
-    adjective1 = input("Enter an adjective: ") 
-    noun1 = input("Enter a noun: ")
-    verb1 = input("Enter a verb: ")
-    adverb = input("Enter an adverb: ")
-    adjective2 = input("Enter another adjective: ")
-    place = input("Enter a place: ")
-    noun2 = input("Enter another noun: ")
-    story = (f"Today, I decided to visit a very {adjective1} park to see the famous {noun1}. " 
-            f"As soon as I arrived, a giant squirrel {verb1} right past me! " 
-            f"It moved so {adverb} that I dropped my ice cream. " 
-            f"Feeling completely {adjective2}, I decided to leave and go to {place} instead " 
-            f"to buy a brand new {noun2}.")
+    noun1 = input("Enter a persons name: ")
+    noun2 = input("Enter a noun: ")
+    feeling1 = input("Enter an adjective (feeling): ")
+    verb1 = input("Enter a verb: ") 
+    feeling2 = input("Enter another adjective (feeling): ")
+    animal = input("Enter an animal: ")
+    verb2 = input("Enter another verb: ")
+    color = input("Enter a color: ")
+    verb3 = input("Enter a verb (ending in ing): ")
+    adverb = input("Enter an adverb (ending in ly): ")
+    number = input("Enter a number: ")
+    time = input("Enter a measure of time: ")
+    color2 = input("Enter another color: ")
+    animal2 = input("Enter another animal: ")
+    number2 = input("Enter another number: ")
+    silly = input("Enter a silly word: ")
+    noun3 = input("Enter another noun: ")
+    story = f"""This weekend I am going camping with {noun1}.
+              I packed my lantern, sleeping bag, and {noun2}. 
+              I am so {feeling1} to {verb1} in a tent. 
+              I am {feeling2} we might see a(n) {animal}, I hear they’re kind of dangerous. 
+              While we’re camping, we are going to hike, fish, and {verb2}.
+             I have heard that the {color} lake is great for {verb3}.
+            Then we will {adverb} hike through the forest for {number} {time}.
+             If I see a {color2} {animal2} while hiking, I am going to bring it home as a pet!
+             At night we will tell {number2} {silly} stories and roast {noun3} around the campfire!!"""
     print(story)
 elif subject == "3":
     print ("Please enter the following words to create your story:")
-    adjective1 = input("Enter an adjective: ") 
-    noun1 = input("Enter a noun: ")
-    verb1 = input("Enter a verb: ")
-    adverb = input("Enter an adverb: ")
-    adjective2 = input("Enter another adjective: ")
-    place = input("Enter a place: ")
-    noun2 = input("Enter another noun: ")
-    story = (f"Today, I decided to visit a very {adjective1} park to see the famous {noun1}. " 
-            f"As soon as I arrived, a giant squirrel {verb1} right past me! " 
-            f"It moved so {adverb} that I dropped my ice cream. " 
-            f"Feeling completely {adjective2}, I decided to leave and go to {place} instead " 
-            f"to buy a brand new {noun2}.")
-print("Here's your story:")
-print(story)
+    noun1 = input("Enter a proper noun (person's name): ")
+    adjective1 = input("Enter an adjective: ")
+    color = input("Enter a color: ")
+    animal = input("Enter an animal: ")
+    place = input("Enter a place: ")    
+    adjective2 = input ("Enter an adjective:")
+    adjective3 = input("Enter another adjective: ")
+    magical = input("enter Magical Creature (Plural)")
+    magical2 = input("enter another Magical Creature (Plural)")
+    house = input("Enter a room in a house: ")
+    noun2 = input("Enter a noun: ") 
+    noun3 = input("Enter another noun: ")
+    noun4 = input("Enter another noun (plural): ")
+    adjective4 = input("Enter another adjective: ")
+    noun5 = input("Enter another noun (plural): ")  
+    number = input("Enter a number: ")
+    measure = input("Enter a measure of time: ")    
+    verb = input("Enter a verb (ending in ing): ")
+    adjective5 = input("Enter another adjective: ")
+    noun6 = input("Enter another noun: ")
+        
+    story = f"""Dear {noun1}, I am writing to you from a {adjective1} castle in an enchanted forest.
+             I found myself here one day after going for a ride on a {color} {animal} in {place}.
+               There are {adjective2} {magical} and {adjective3} {magical2} here! 
+               In the {house} there is a pool full of {noun2}. 
+               I fall asleep each night on a {noun3} of {noun4} and dream of {adjective4} {noun5}.
+                 It feels as though I have lived here for {number} {measure}. 
+                 I hope one day you can visit,
+                            although the only way to get here now is {verb} on a {adjective5} {noun6}!!"""
+    print(story)
+
