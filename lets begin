@@ -1,7 +1,6 @@
-print("hii")
-numbers = [134,3,4,135,10]
-max = numbers[0]
-for number in numbers:
-    if number > max:
-        max = number
+number = [5, 10, 50, 9]
+max = number[0]
+for num in number:
+    if num > max:
+        max = num
 print(max)
